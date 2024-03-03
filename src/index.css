@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.answer{
+  padding : 13px 14px;
+  border: solid 0.5px #cacaca;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 6px;
+}
