@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    max-width: 00px;
+    max-width: 900px;
     margin: auto;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -64,3 +64,15 @@
     padding: 10px;
     text-align: center;
 }
+
+.search-result {
+    flex-grow: 1; /* Allow chat history to fill the available space */
+    overflow-y: auto; /* Enable scrolling */
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
