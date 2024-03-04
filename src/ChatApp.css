@@ -1,25 +1,3 @@
-.app {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Make the app fill the full view height */
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden; /* Prevent the app from overflowing */
-}
-
-.search-result {
-    flex-grow: 1; /* Allow chat history to fill the available space */
-    overflow-y: auto; /* Enable scrolling */
-    margin-top: 20px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    background-color: #f0f0f0;
-}
-
-/* Rest of the styles remain the same */
-
 .chat-container {
     display: flex;
     flex-direction: column;

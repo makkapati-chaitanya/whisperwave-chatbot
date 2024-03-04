@@ -1,4 +1,3 @@
-import ReactHtmlParser from 'react-html-parser';
 import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import './ChatApp.css';
@@ -93,8 +92,7 @@ const ChatApp =() => {
             <button onClick={getResponse}>Send</button>
           </div>
           {error && <div className="chat-error">{error}</div>}
-      </div>
-      
+      </div>      
     )
   }
 
